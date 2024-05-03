@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #edf3f8;
+  width: 100%;
+  padding: 45px 165px;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  max-width: 135px;
+}
+
+.header_logo {
+  width: 100%;
+}
+
+.header_ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header_a {
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #36536b;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header_ul li:nth-child(4) a {
+  background-color: #ba4270;
+  box-shadow: 10px 10px 25px -10px #36536b40;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.btn {
+  display: none;
+}
+
+.header_decription h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #36536B;
+    width: 546px;
+}
+
+.header_img{
+    max-width: 263px;
+}
+
+.header_img img {
+    width: 100%;
+}
+
+.header_decription {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.section_container {
+    background-color: #1B262F;
+    display: flex;
+    align-items: center;
+    padding: 50px 160px;
+    justify-content: space-between;
+}
+
+.section_description h1 {
+    color: #FBFCFE;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.section_description p {
+    color: #FBFCFE;
+    font-weight: 400;
+    font-size: 15px;
+    width: 445px;
+    margin-bottom: 32px;
+}
+
+.section_description button {
+    padding: 15px 32px;
+    border: 1px solid #FBFCFE;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #FBFCFE;
+}
+
+.section_card {
+    width: 485px;
+}
+
+.section_card img {
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.section_decsription {
+    display: flex; 
+    align-items: center;
+    padding: 50px 160px;
+}
+
+.section_decsription_img {
+    width: 500px;
+}
+
+.section_decsription h1 {
+    color: #36536B;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.section_decsription p {
+    color: #36536B;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    width: 445px;
+    justify-content: space-between;
+}
+
+.section_cardss {
+    padding: 10px 160px;
+    display: flex;
+
+}
+
+.section_cardss img {
+    padding: 30px 112px;
+}
+
+.section_cards p {
+    color: #36536B;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    width: 445px;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.section_cards h1 {
+    padding: 16px 90px;
+    color: #36536B;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    width: 445px;
+    justify-content: space-between;
+    height: 1px;
+}
+
+footer {
+    background-color: #1B262F;
+    display: flex;
+    align-items: center;
+    padding: 20px 160px;
+    justify-content: space-between;
+}
+
+.footer_ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer_iu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_ul a {
+    text-decoration: none;
+    color: #FBFCFE;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer_icon {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width:576px) {
+   
+    header {
+        padding: 45px 25px;
+    }
+
+    .header_ul {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .header_decription {
+        display: block;
+        padding: 50px 30px;
+    }
+
+    .header_decription h1 {
+        font-size: 32px;
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .header_decription img {
+        margin-left: 100px;
+    }
+
+    .section_container {
+        display: block;
+        padding: 50px 40px;
+    }
+
+    .section_description {
+        margin-bottom: 30px;
+    }
+
+    .section_description button {
+        margin-left: 130px;
+    }
+
+    .section_decsription {
+        padding: 50px 30px;
+        display: block;
+    }
+    
+    .section_sdiv {
+        margin-left: 20px;
+    }
+
+    .section_cardss {
+        display: block;
+        padding: 10px 100px;
+    }
+
+    footer {
+        padding: 20px 200px;
+        display: block;
+    }
+
+    .footer_iu {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .footer_ul {
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+
+    .footer_ul li {
+        padding-bottom: 10px;
+    }
+
+    .footer_iu img  {
+        margin-bottom: 20px;
+    }
+}
